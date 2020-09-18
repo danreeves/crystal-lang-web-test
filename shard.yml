@@ -1,0 +1,21 @@
+name: webtestcr
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  webtestcr:
+    main: src/webtestcr.cr
+
+crystal: 0.35.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  sentry-run:
+    github: faustinoaq/sentry-run
+    branch: master
