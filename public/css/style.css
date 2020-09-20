@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: slategrey;
+  color: white;
+  font-family: Arial;
+  font-weight: 600;
+}
+
+#connected {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background: lightcoral;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#connected.yep {
+  background: lightgreen;
+}
+
+#window {
+  display: flex;
+  flex-direction: row;
+}
+
+#chat {
+  border: 2px solid black;
+  height: 600px;
+  width: 800px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#users {
+  border: 2px solid black;
+  height: 600px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+#login {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+}
+
+#name {
+  border: 2px solid black;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#connect {
+  padding: 5px;
+}
+
+#logged-in {
+  display: none;
+}
+
+#message {
+  margin-top: 15px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+#input {
+  flex: 1;
+  border: 2px solid black;
+  padding: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#send {
+  width: 100px;
+}
+
+label {
+  padding: 5px;
+}
+
+.message-system {
+  color: paleturquoise;
+}

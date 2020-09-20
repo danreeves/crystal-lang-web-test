@@ -16,6 +16,7 @@ dependencies:
   kemal:
     github: kemalcr/kemal
     branch: master
-  sentry-run:
-    github: faustinoaq/sentry-run
-    branch: master
+
+development_dependencies:
+  watch:
+    github: danreeves/watch
